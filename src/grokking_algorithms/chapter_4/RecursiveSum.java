@@ -3,7 +3,7 @@ package grokking_algorithms.chapter_4;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class recursive_sum {
+public class RecursiveSum {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(2, 5, 65, 844, 0, 15, 32, 451, 5, 1, 100));
 

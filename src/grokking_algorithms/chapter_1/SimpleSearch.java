@@ -1,6 +1,6 @@
 package grokking_algorithms.chapter_1;
 
-public class simple_search {
+public class SimpleSearch {
     public static void main(String[] args) {
         int[] array = new int[100];
         for (int i = 0; i < array.length; i++) {

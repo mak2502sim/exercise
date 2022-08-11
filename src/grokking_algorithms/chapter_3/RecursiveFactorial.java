@@ -1,6 +1,6 @@
 package grokking_algorithms.chapter_3;
 
-public class factorial_recursive {
+public class RecursiveFactorial {
     public static void main(String[] args) {
         System.out.println(fact(5));
     }

@@ -2,7 +2,7 @@ package grokking_algorithms.chapter_3;
 
 import java.util.Arrays;
 
-public class fibonacci {
+public class Fibonacci {
     public static void main(String[] args) {
         int n = 60;
         long[] mem = new long[n + 1];

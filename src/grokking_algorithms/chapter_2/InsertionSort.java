@@ -2,7 +2,7 @@ package grokking_algorithms.chapter_2;
 
 import java.util.Arrays;
 
-public class insertion_sort {
+public class InsertionSort {
     public static void main(String[] args) {
         int[] array = new int[]{2, 5, 65, 844, 0, 15, 32, 451, 5, 1, 100};
 
