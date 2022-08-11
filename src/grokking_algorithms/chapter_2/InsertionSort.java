@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class InsertionSort {
     public static void main(String[] args) {
         int[] array = new int[]{2, 5, 65, 844, 0, 15, 32, 451, 5, 1, 100};
-
-        System.out.println(Arrays.toString(insertionSort(array)));
+        insertionSort(array);
+        System.out.println(Arrays.toString(array));
     }
 
-    public static int[] insertionSort(int[] array) {
+    public static void insertionSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int value = array[i];
             int j = i - 1;
@@ -21,6 +21,5 @@ public class InsertionSort {
             }
             array[j + 1] = value;
         }
-        return array;
     }
 }

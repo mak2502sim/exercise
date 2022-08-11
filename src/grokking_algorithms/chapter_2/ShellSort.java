@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class ShellSort {
     public static void main(String[] args) {
         int[] array = new int[]{2, 5, 65, 844, 0, 15, 32, 451, 5, 1, 100};
-
-        System.out.println(Arrays.toString(shellSort(array)));
+        shellSort(array);
+        System.out.println(Arrays.toString(array));
     }
 
-    public static int[] shellSort(int[] array) {
+    public static void shellSort(int[] array) {
         int gap = array.length / 2;
         while(gap >= 1) {
             for (int i = 0; i < array.length; i++) {
@@ -23,6 +23,5 @@ public class ShellSort {
             }
             gap = gap / 2;
         }
-        return array;
     }
 }

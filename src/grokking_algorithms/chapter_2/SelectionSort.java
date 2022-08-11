@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class SelectionSort {
     public static void main(String[] args) {
         int[] array = new int[]{2, 5, 65, 844, 0, 15, 32, 451, 5, 1, 100};
-
-        System.out.println(Arrays.toString(selectionSort(array)));
+        selectionSort(array);
+        System.out.println(Arrays.toString(array));
     }
 
-    public static int[] selectionSort(int[] array) {
+    public static void selectionSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int min = i;
 
@@ -22,6 +22,5 @@ public class SelectionSort {
             array[i] = array[min];
             array[min] = temp;
         }
-        return array;
     }
 }

@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class ShuttleSort {
     public static void main(String[] args) {
         int[] array = new int[]{2, 5, 65, 844, 0, 15, 32, 451, 5, 1, 100};
-
-        System.out.println(Arrays.toString(shuttleSort(array)));
+        shuttleSort(array);
+        System.out.println(Arrays.toString(array));
     }
 
-    public static int[] shuttleSort(int[] array) {
+    public static void shuttleSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             if (array[i] < array[i - 1]) {
                 int temp = array[i];
@@ -26,6 +26,5 @@ public class ShuttleSort {
                 }
             }
         }
-        return array;
     }
 }
