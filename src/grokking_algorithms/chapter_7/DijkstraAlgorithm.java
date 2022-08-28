@@ -6,18 +6,18 @@ import java.util.HashMap;
 public class DijkstraAlgorithm {
     public static void main(String[] args) {
         HashMap<String, HashMap<String, Integer>> graph = new HashMap<>();
-        graph.put("start", new HashMap<String, Integer>());
+        graph.put("start", new HashMap<>());
         graph.get("start").put("a", 6);
         graph.get("start").put("b", 2);
 
-        graph.put("a", new HashMap<String, Integer>());
+        graph.put("a", new HashMap<>());
         graph.get("a").put("fin", 1);
 
-        graph.put("b", new HashMap<String, Integer>());
+        graph.put("b", new HashMap<>());
         graph.get("b").put("a", 3);
         graph.get("b").put("fin", 5);
 
-        graph.put("fin", new HashMap<String, Integer>());
+        graph.put("fin", new HashMap<>());
 
 
         HashMap<String, Integer> costs = new HashMap<>();
