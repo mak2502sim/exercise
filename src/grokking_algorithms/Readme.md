@@ -1,1 +1,1 @@
-Implementation of algorithms from "Grokking Algoriths" by Aditya Bhargava
+Implementation of algorithms from "Grokking Algorithms" by Aditya Bhargava
