@@ -1,4 +1,4 @@
-package grokking_algorithms.chapter_8;
+package grokking_algorithms;
 
 import java.util.Arrays;
 import java.util.HashMap;

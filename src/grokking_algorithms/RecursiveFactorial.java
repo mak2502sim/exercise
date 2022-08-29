@@ -1,4 +1,4 @@
-package grokking_algorithms.chapter_3;
+package grokking_algorithms;
 
 public class RecursiveFactorial {
     public static void main(String[] args) {

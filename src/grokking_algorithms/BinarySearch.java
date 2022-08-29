@@ -1,4 +1,4 @@
-package grokking_algorithms.chapter_1;
+package grokking_algorithms;
 
 public class BinarySearch {
     public static void main(String[] args) {

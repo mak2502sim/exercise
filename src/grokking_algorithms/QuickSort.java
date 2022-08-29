@@ -1,4 +1,4 @@
-package grokking_algorithms.chapter_4;
+package grokking_algorithms;
 
 import java.util.Arrays;
 
